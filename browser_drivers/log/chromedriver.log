@@ -1,0 +1,625 @@
+[0.464][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[0.467][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[0.469][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[0.505][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-component-extension="C:\Users\skuye\AppData\Local\Temp\scoped_dir7060_4827\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12106 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\skuye\AppData\Local\Temp\scoped_dir7060_1233" data:,
+[1.181][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[2.222][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41)",
+      "userDataDir": "C:\\Users\\skuye\\AppData\\Local\\Temp\\scoped_dir7060_1233"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "~~~": "..."
+}
+[2.231][INFO]: COMMAND DeleteAllCookies {
+
+}
+[2.231][INFO]: Waiting for pending navigations...
+[2.259][INFO]: Done waiting for pending navigations. Status: ok
+[3.401][INFO]: Waiting for pending navigations...
+[3.402][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[3.413][INFO]: RESPONSE DeleteAllCookies
+[3.425][INFO]: COMMAND SetTimeout {
+   "ms": 5000,
+   "type": "implicit"
+}
+[3.425][INFO]: RESPONSE SetTimeout
+[3.433][INFO]: COMMAND Navigate {
+   "url": "https://login.microsoftonline.com/common/oauth2/authorize?client_id=4345a7b9-9a63-4910-a426-35363201d503&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect..."
+}
+[3.433][INFO]: RESPONSE Navigate no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[3.473][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[3.473][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[3.983][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[3.983][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[4.491][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[4.492][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[5.000][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[5.000][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[5.506][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[5.507][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[6.021][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[6.021][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[6.535][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[6.535][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[7.044][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[7.044][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[7.556][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[7.556][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[8.067][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[8.067][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[8.576][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[8.576][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[9.087][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[9.087][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[9.596][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[9.596][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[10.106][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[10.106][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[10.615][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[10.615][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[11.126][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[11.126][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[11.635][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[11.635][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[12.145][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[12.145][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[12.657][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[12.657][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[13.169][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[13.169][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[13.676][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[13.676][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[14.187][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[14.187][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[14.696][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[14.697][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[15.206][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[15.206][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[15.715][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[15.716][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[16.225][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[16.226][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[16.734][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[16.735][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[17.243][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[17.244][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[17.921][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[17.921][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[18.431][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[18.431][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[18.941][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[18.941][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[19.451][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[19.451][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[19.965][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[19.965][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[20.474][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[20.474][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[20.986][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[20.986][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[21.494][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[21.494][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[21.997][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[21.997][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[22.503][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[22.504][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[23.011][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[23.011][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[23.524][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[23.524][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[24.035][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[24.035][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[24.544][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[24.545][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[25.053][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[25.054][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[25.559][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[25.559][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[26.064][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[26.064][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[26.573][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[26.573][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[27.081][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[27.081][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[27.591][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[27.592][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[28.100][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[28.101][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[28.610][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[28.611][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[29.120][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[29.121][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[29.630][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[29.631][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[30.138][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[30.138][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[30.646][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[30.646][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[31.155][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[31.155][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[31.663][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[31.663][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[32.171][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[32.172][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[32.679][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[32.679][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[33.185][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[33.185][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[33.691][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[33.691][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[34.200][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[34.201][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[34.711][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[34.711][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[35.219][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[35.220][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[35.728][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[35.729][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[36.235][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[36.235][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[36.744][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[36.744][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[37.252][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[37.253][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[37.761][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[37.761][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[38.271][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[38.271][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[38.780][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[38.780][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[39.293][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[39.293][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+[39.803][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "login_cta_text"
+}
+[39.803][INFO]: RESPONSE FindElement no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)

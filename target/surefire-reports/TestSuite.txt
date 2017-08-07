@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 3, Time elapsed: 251.381 sec <<< FAILURE! - in TestSuite
+logInAndOutOfOffice(testsuites.LoginLogout)  Time elapsed: 22.885 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at testsuites.LoginLogout.logInAndOutOfOffice(LoginLogout.java:76)
+
+logInAndOutOfOffice(testsuites.LoginLogout)  Time elapsed: 19.45 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at testsuites.LoginLogout.logInAndOutOfOffice(LoginLogout.java:76)
+
+logInAndOutOfOffice(testsuites.LoginLogout)  Time elapsed: 16.41 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at testsuites.LoginLogout.logInAndOutOfOffice(LoginLogout.java:76)
+
+logInAndOutOfOffice(testsuites.LoginLogout)  Time elapsed: 188.608 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at testsuites.LoginLogout.logInAndOutOfOffice(LoginLogout.java:76)
+
+takeScreenshot(testsuites.LoginLogout)  Time elapsed: 188.622 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at testsuites.LoginLogout.takeScreenshot(LoginLogout.java:144)
+

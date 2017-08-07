@@ -1,0 +1,13 @@
+utilities\BaseInteraction.class
+testsuites\Invoke.class
+testsuites\LoginLogout.class
+pageobjects\OfficeHome.class
+utilities\VariablesInstance.class
+pageobjects\Office365LoginPage.class
+testsuites\BeforeAfterSuiteSetup.class
+utilities\HTMLReport.class
+utilities\ConnectToInfluxDB.class
+utilities\BrowserDriver.class
+utilities\CaptureScreenshot.class
+utilities\BaseStopwatch.class
+pageobjects\PlanitSingleSignOnPage.class

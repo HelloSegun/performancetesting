@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite guice-stage="DEVELOPMENT" name="Office 365 Tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.office.com"/>
+  <parameter name="userId" value=" "/>
+  <parameter name="userPwd" value=" "/>
+
+
+  <test verbose="2" name="Logging in and logging out" preserve-order="true">
+ 	<classes>
+ 		<class name="testsuites.BeforeAfterSuiteSetup"/>
+ 		<class name="testsuites.LoginLogout"/>
+ 	</classes>
+  </test>
+</suite>
